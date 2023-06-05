@@ -1,0 +1,123 @@
+/*
+Program name: Payment Code
+Author: NianBroken
+Website: https://www.nianbroken.top/
+Gmail: suinian666@gmail.com
+Time: 2023.06.06
+*/
+body {
+	background-color: #f5f5f5; /* 设置背景颜色 */
+	font-family: Arial, sans-serif; /* 设置字体样式 */
+	margin: 0; /* 清除页面边距 */
+	padding: 0; /* 清除页面内边距 */
+	display: flex; /* 使用弹性布局 */
+	align-items: center; /* 垂直居中对齐 */
+	justify-content: center; /* 水平居中对齐 */
+	height: 100vh; /* 设置高度为视口高度 */
+	text-align: center; /* 文本居中对齐 */
+	-webkit-user-select: none; /* 禁止用户选择文本（针对WebKit内核浏览器） */
+	-moz-user-select: none; /* 禁止用户选择文本（针对Gecko内核浏览器） */
+	-ms-user-select: none; /* 禁止用户选择文本（针对Trident内核浏览器） */
+	user-select: none; /* 禁止用户选择文本 */
+}
+
+.container {
+	background-color: #fff; /* 设置容器背景颜色 */
+	border-radius: 16px; /* 设置容器边框圆角 */
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 设置容器阴影效果 */
+	padding: 10px; /* 设置容器内边距 */
+	width: calc(90vw + 200px); /* 设置容器宽度为视口宽度加200像素 */
+	max-width: 550px; /* 设置容器最大宽度为800像素 */
+	margin: 18px; /* 设置容器外边距 */
+	display: flex; /* 使用弹性布局 */
+	flex-wrap: wrap; /* 换行显示 */
+	justify-content: center; /* 水平居中对齐 */
+	animation: dropDown 1s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* 设置动画效果 */
+	animation-fill-mode: both; /* 设置动画填充模式 */
+}
+
+@keyframes dropDown {
+	0% {
+		transform: translateY(-100%); /* 初始状态：向上偏移100% */
+		opacity: 0; /* 初始状态：透明度为0 */
+		filter: blur(8px); /* 初始状态：模糊度为8像素 */
+	}
+	50% {
+		transform: translateY(20px); /* 过渡状态：向下偏移20像素 */
+		opacity: 1; /* 过渡状态：透明度为1 */
+		filter: blur(4px); /* 过渡状态：模糊度为4像素 */
+	}
+	70% {
+		transform: translateY(-10px); /* 过渡状态：向上偏移10像素 */
+		filter: blur(2px); /* 过渡状态：模糊度为2像素 */
+	}
+	100% {
+		transform: translateY(0); /* 最终状态：不偏移 */
+		filter: blur(0); /* 最终状态：不模糊 */
+	}
+}
+
+.qr-code {
+	margin: 0px 10px 0px 10px; /* 设置二维码容器的外边距 */
+	position: relative; /* 设置相对定位 */
+	animation: fadeIn 1s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* 设置动画效果 */
+	animation-fill-mode: both; /* 设置动画填充模式 */
+	animation-delay: calc(var(--animation-delay) * 0.2s); /* 设置动画延迟 */
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0; /* 初始状态：透明度为0 */
+	}
+	100% {
+		opacity: 1; /* 最终状态：透明度为1 */
+	}
+}
+
+.qr-code-icon {
+	position: absolute; /* 设置绝对定位 */
+	top: 50%; /* 设置顶部偏移量为50% */
+	left: 50%; /* 设置左侧偏移量为50% */
+	transform: translate(-50%, -10%); /* 水平垂直居中对齐 */
+	width: 24px; /* 设置图标宽度 */
+	height: 24px; /* 设置图标高度 */
+	border: 2px solid #fff; /* 设置边框样式 */
+	border-radius: 50%; /* 设置边框圆角 */
+	background-color: #ffffff; /* 设置背景颜色 */
+	pointer-events: none; /* 让SVG可以穿透点击 */
+}
+
+.qr-code-icon svg {
+	width: 100%; /* 设置SVG图标宽度 */
+	height: 100%; /* 设置SVG图标高度 */
+}
+
+.qr-code-title {
+	font-size: 16px; /* 设置标题字体大小 */
+	font-weight: bold; /* 设置标题字体粗细 */
+	margin-top: 10px; /* 设置标题上方外边距 */
+	margin-bottom: 2px; /* 设置标题下方外边距 */
+}
+
+.qr-code img {
+	border-radius: 10px; /* 设置二维码图像圆角 */
+}
+
+#qr-code1 img {
+	width: 128px; /* 设置二维码宽度 */
+	height: 128px; /* 设置二维码高度 */
+}
+
+#qr-code2 img {
+	width: 128px; /* 设置二维码宽度 */
+	height: 128px; /* 设置二维码高度 */
+}
+
+#qr-code3 img {
+	width: 128px; /* 设置二维码宽度 */
+	height: 128px; /* 设置二维码高度 */
+}
+
+.footer {
+	margin-bottom: 5px; /* 设置页脚下方外边距 */
+}
