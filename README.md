@@ -20,6 +20,12 @@
 
 - [https://pay.nianbroken.top/](https://pay.nianbroken.top/)
 
+- [https://nianbroken.github.io/Payment-Code/](https://nianbroken.github.io/Payment-Code/)
+
+- [https://payment-code.pages.dev/](https://payment-code.pages.dev/)
+
+- [https://payment-code.vercel.app/](https://payment-code.vercel.app/)
+
 ## 其他
 
 - 欢迎提交PR
