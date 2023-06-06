@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	// 创建第一行页脚元素并设置文本内容、字体大小和颜色
 	var line1 = document.createElement("div");
 	line1.textContent = "若无法直接付款 请截图保存后再扫描二维码";
-	line1.style.fontSize = "16px"; // 设置初始的第一行页脚的字体大小
+	line1.style.fontSize = "1.10rem"; // 设置初始的第一行页脚的字体大小
 	line1.style.color = "#000000"; // 设置第一行页脚的字体颜色
 	footer.appendChild(line1);
 
 	// 创建第二行页脚元素并设置文本内容、字体大小和颜色
 	var line2 = document.createElement("div");
 	line2.textContent = "USDT:TDieuomyJMeN7tK5XwP1nhykw5dDiDLZ4n";
-	line2.style.fontSize = "14px"; // 设置初始的第二行页脚的字体大小
+	line2.style.fontSize = "0.9125rem"; // 设置初始的第二行页脚的字体大小
 	line2.style.color = "#666666"; // 设置第二行页脚的字体颜色
 	line2.style.cursor = "pointer"; // 设置鼠标样式为指针
 	footer.appendChild(line2);
@@ -48,27 +48,55 @@ document.addEventListener("DOMContentLoaded", function () {
 		var fontSize;
 
 		// 根据容器宽度设置页脚字体大小
-		if (containerWidth <= 348) {
-			fontSize = "12px";
-		} else if (containerWidth <= 355) {
-			fontSize = "12px";
-		} else if (containerWidth <= 360) {
-			fontSize = "12px";
-		} else if (containerWidth <= 386) {
-			fontSize = "14px";
+		if (containerWidth <= 150) {
+			fontSize = "0.54rem";
+		} else if (containerWidth <= 192) {
+			fontSize = "0.56rem";
+		} else if (containerWidth <= 222) {
+			fontSize = "0.61rem";
+		} else if (containerWidth <= 242) {
+			fontSize = "0.71rem";
+		} else if (containerWidth <= 292) {
+			fontSize = "0.78rem";
+		} else if (containerWidth <= 316) {
+			fontSize = "0.81rem";
+		} else if (containerWidth <= 320) {
+			fontSize = "0.84rem";
+		} else if (containerWidth <= 338) {
+			fontSize = "0.86rem";
+		} else if (containerWidth <= 356) {
+			fontSize = "0.88rem";
+		} else if (containerWidth <= 374) {
+			fontSize = "0.90rem";
+		} else if (containerWidth <= 392) {
+			fontSize = "0.92rem";
+		} else if (containerWidth <= 410) {
+			fontSize = "0.94rem";
+		} else if (containerWidth <= 428) {
+			fontSize = "0.98rem";
+		} else if (containerWidth <= 446) {
+			fontSize = "1.01rem";
 		} else if (containerWidth <= 464) {
-			fontSize = "18px";
+			fontSize = "1.04rem";
+		} else if (containerWidth <= 480) {
+			fontSize = "1.06rem";
+		} else if (containerWidth <= 498) {
+			fontSize = "1.08rem";
+		} else if (containerWidth <= 516) {
+			fontSize = "1.10rem";
+		} else if (containerWidth <= 534) {
+			fontSize = "1.12rem";
+		} else if (containerWidth <= 552) {
+			fontSize = "1.14rem";
 		} else if (containerWidth <= 570) {
-			fontSize = "20px";
-		} else if (containerWidth <= 610) {
-			fontSize = "20px";
+			fontSize = "1.16rem";
 		} else {
-			fontSize = "22px";
+			fontSize = "1.18rem";
 		}
 
 		// 根据页脚字体大小设置第一行和第二行的字体大小
 		line1.style.fontSize = fontSize;
-		line2.style.fontSize = parseInt(fontSize) - 3 + "px";
+		line2.style.fontSize = parseFloat(fontSize) - 0.1875 + "rem";
 	};
 
 	// 初始化页脚字体大小

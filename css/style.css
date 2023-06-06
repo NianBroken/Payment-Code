@@ -5,6 +5,11 @@ Website: https://www.nianbroken.top/
 Gmail: suinian666@gmail.com
 Time: 2023.06.06
 */
+html {
+	text-size-adjust: none;
+	font-size: 16px;
+}
+
 body {
 	background-color: #f5f5f5; /* 设置背景颜色 */
 	font-family: Arial, sans-serif; /* 设置字体样式 */
@@ -27,7 +32,7 @@ body {
 	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 设置容器阴影效果 */
 	padding: 10px; /* 设置容器内边距 */
 	width: calc(90vw + 200px); /* 设置容器宽度为视口宽度加200像素 */
-	max-width: 550px; /* 设置容器最大宽度为800像素 */
+	max-width: 550px; /* 设置容器最大宽度为550像素 */
 	margin: 18px; /* 设置容器外边距 */
 	display: flex; /* 使用弹性布局 */
 	flex-wrap: wrap; /* 换行显示 */
@@ -78,7 +83,7 @@ body {
 	position: absolute; /* 设置绝对定位 */
 	top: 50%; /* 设置顶部偏移量为50% */
 	left: 50%; /* 设置左侧偏移量为50% */
-	transform: translate(-50%, -10%); /* 水平垂直居中对齐 */
+	transform: translate(-50%, 15%); /* 水平垂直居中对齐 */
 	width: 24px; /* 设置图标宽度 */
 	height: 24px; /* 设置图标高度 */
 	border: 2px solid #fff; /* 设置边框样式 */
