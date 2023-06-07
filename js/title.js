@@ -3,7 +3,7 @@ Program name: Payment Code
 Author: NianBroken
 Website: https://www.nianbroken.top/
 Gmail: suinian666@gmail.com
-Time: 2023.06.07
+Time: 2023.06.06
 */
 document.addEventListener("DOMContentLoaded", function () {
 	// 获取所有具有qr-code-title类的h3元素
