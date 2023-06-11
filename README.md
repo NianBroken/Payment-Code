@@ -29,3 +29,4 @@
 ## 其他
 
 - 欢迎提交PR
+- **欧盟全球网络加速协会：[https://eugnaa.eu-gov.eu.org/](https://eugnaa.eu-gov.eu.org/)**
