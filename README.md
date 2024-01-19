@@ -29,3 +29,5 @@
 ## 其他
 
 - 欢迎提交PR
+
+## 最便宜的VPN：https://nianbroken.github.io/Great-Firewall/
