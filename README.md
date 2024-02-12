@@ -2,8 +2,6 @@
 
 # Payment Code
 
-------
-
 一个拥有高度自适应设备尺寸的网页 用于展示您所有钱包的收款码
 
 <img src="./assets/Payment-Code.png" alt="主界面" style="zoom:35%;" />
