@@ -10,13 +10,7 @@
 
 </div>
 
-## 使用
-
-- 修改`./js/main.js`文件中的第`11、21、31`行代码 将各个`text`参数都换成你自己的钱包二维码内容
-
-- 修改`./js/footer.js`文件中的第`26`行代码 将`line2.textContent`参数换成你自己的虚拟钱包地址
-
-## DEMO
+## 预览
 
 - [https://pay.nianbroken.top/](https://pay.nianbroken.top/)
 
@@ -26,9 +20,21 @@
 
 - [https://payment-code.vercel.app/](https://payment-code.vercel.app/)
 
+## 使用
+
+- 修改`./js/main.js`文件中的第`11、21、31`行代码 将各个`text`参数都换成你自己的钱包二维码内容
+
+- 修改`./js/footer.js`文件中的第`26`行代码 将`line2.textContent`参数换成你自己的虚拟钱包地址
+
+## 许可证
+
+`Copyright © 2023 NianBroken. All rights reserved.`
+
+本项目采用 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0 "Apache-2.0") 许可证。简而言之，你可以自由使用、修改和分享本项目的代码，但前提是在其衍生作品中必须保留原始许可证和版权信息，并且必须以相同的许可证发布所有修改过的代码。
+
 ## 其他
 
-- 欢迎提交PR
+欢迎提交 `Issues` 和 `Pull requests`
 
 ## 最便宜的VPN
 
