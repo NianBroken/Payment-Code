@@ -1,4 +1,3 @@
-*.html linguist-detectable=true
-*.js linguist-detectable=true
-*.css linguist-detectable=true
-index.html linguist-language=HTML
+*.js linguist-vendored
+*.css linguist-vendored
+*.html linguist-dominant-language=HTML
